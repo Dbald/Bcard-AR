@@ -14,13 +14,13 @@
 </head>
 
 <body>
-      <a-scene class="scene">
+      <a-scene>
         <a-assets>
           <a-asset-item id="logo" src="../models/DTS-logo.gltf">
           </a-assets>
-          <a-entity light="type: directional; color: #BBB" position="0 0.5 -2.2"></a-entity>
+          <a-entity light="type: point; color: #BBB; intensity: 2.0" position="0 4.899 0.358"></a-entity>
         <!-- Using the asset management system. -->
-        <a-gltf-model src="#logo" position="0 0.5 -2.2"></a-gltf-model>
+        <a-gltf-model src="#logo" background="color: #000000" position="0 0.5 -5.785"></a-gltf-model>
        </a-scene>
 <!-- define a simple camera -->
 
